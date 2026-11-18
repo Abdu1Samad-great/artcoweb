@@ -1,0 +1,13 @@
+import Projects from "@/components/Projects";
+
+export const metadata = {
+  title: "Projects",
+};
+
+export default function ProjectsPage() {
+  return (
+    <div className="pt-28">
+      <Projects />
+    </div>
+  );
+}
